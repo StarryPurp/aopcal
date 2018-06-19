@@ -7,7 +7,7 @@ import kr.hs.emirim.bstar128.aopcal.cal.RecCalculator;
 public class MainCal {
 
 	public static void main(String[] args) {
-		long num=1000;
+		long num=4;
 		long start1=System.currentTimeMillis();
 		Calculator call=new ImpCalculator();
 		long f1=call.factorial(num);
